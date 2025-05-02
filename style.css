@@ -1,3 +1,52 @@
-body{
-    background-color: #c0f1ef
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to bottom, #ff7e5f, #ffdf66); /* Pink to orange gradient */
+    background-color: #000000;
+    color: #000000;
+    line-height: 1.6;
+    padding: 20px;
+    min-height: 100vh;
+}
+h1,
+h2,
+h3,
+.page-title {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+figcaption {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+a {
+    color: #fff676;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+}
+img,
+video {
+    border: 5px solid black;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+p,
+ul {
+    margin-bottom: 1em;
 }
